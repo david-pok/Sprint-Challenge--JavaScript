@@ -30,13 +30,26 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+map brings you a new array
+
 2. What is the difference between a function and a method?
+
+a method is a function that belongs to an object
 
 3. What is closure?
 
+an inner function having access to things in the outer function
+
 4. Describe the four rules of the 'this' keyword.
 
+    1. this belongs to the window object globally
+    2. if a function is called with a dot this belongs to the object before
+    3. this refers the constructor the function being called with is inside
+    4. call or apply is explicictly used with this
+
 5. Why do we need super() in an extended class?
+
+to get the parents traits
 
 ## Project Set up
 
